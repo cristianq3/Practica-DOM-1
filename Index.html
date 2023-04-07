@@ -24,9 +24,11 @@
         <div
           class="container d-flex justify-content-center align-items-center flex-column mt-3"
         >
-          <p class="lead">
-            El juego consiste en acertar el mismo número que la maquina elija de
-            manera aleatoria.
+          <p class="text-center">
+            El juego consiste en acertar el mismo número
+            <strong>del 0 al 100</strong> que la maquina elija de manera
+            aleatoria. <br />
+            Buena Suerte!!
           </p>
           <button class="btn btn-primary mt-3 p-1">Generar Número</button>
 
@@ -35,7 +37,12 @@
               >Adivinar ingresando un numero:</label
             >
 
-            <input id="ingresoNRo" type="text" class="input-group-text p-1 " />
+            <input
+              id="ingresoNRo"
+              type="number"
+              maxlength="100"
+              class="input-group-text p-1"
+            />
           </form>
           <button class="btn btn-primary m-3 p-1">Adivinar</button>
         </div>
