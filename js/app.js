@@ -23,8 +23,8 @@ function adivinarNumero() {
     console.log("son igueales");
     alert("Felicitaciones Ganaste");
   } else if (valorAComparar > numeroAleatorio) {
-    alert("El numero que elegiste es mayor, sigue intentando.");
+    alert("Tu número es MAYOR, sigue intentando.");
   } else if (valorAComparar < numeroAleatorio) {
-    alert("El numero que elegiste es menor, sigue intentando.");
+    alert("Tu número es MENOR, sigue intentando.");
   }
 }
