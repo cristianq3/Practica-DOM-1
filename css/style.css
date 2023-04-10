@@ -8,3 +8,26 @@ main {
 }
 
 
+.alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: yellow;
+  color: red;
+  font-size: 24px;
+  padding: 20px;
+  border: 2px solid red;
+}
+
+.custom-alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: yellow;
+  color: red;
+  font-size: 24px;
+  padding: 20px;
+  border: 2px solid red;
+}

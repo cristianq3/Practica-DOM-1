@@ -5,12 +5,9 @@ Cuando el usuario adivine el numero mostrar un mensaje indicando al usuario que 
 
 let btnGenerar = document.querySelector("#btnGenerar");
 let input = document.querySelector("#ingresoNRo");
-
 let btnAdivinar = document.querySelector("#adivinar");
-btnGenerar.addEventListener("click", generarNumero);
-
 let numeroAleatorio = 0;
-
+btnGenerar.addEventListener("click", generarNumero);
 btnAdivinar.addEventListener("click", adivinarNumero);
 
 function generarNumero() {
